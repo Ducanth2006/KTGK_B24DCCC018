@@ -1,0 +1,37 @@
+/* src/pages/HomePage.css */
+.home-page {
+  padding: 2rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap; /* Cho phép xuống dòng trên màn hình nhỏ */
+  gap: 1rem;
+}
+
+.home-header h1 {
+  margin: 0;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-create {
+  background-color: #17a2b8;
+  color: white;
+}
+.button-create:hover {
+  background-color: #138496;
+}
